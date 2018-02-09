@@ -9,6 +9,7 @@ import Application from './Application/Application'
 import Management from './AboutPage/Management'
 import MethMaterials from './Methodical/MethMaterials'
 import Schedule from './Schedule/Schedule'
+import Google_verification from './Google_verification'
 
 
 // import { connect } from 'react-redux';
@@ -61,7 +62,8 @@ class Main extends React.Component {
                     <Route exact path='/methodical_materials' component={MethMaterials}/>
                     <Route exact path='/application' component={Application}/>
                     <Route exact path='/schedule' component={Schedule}/>
-
+                    {/*<Route exact path='/googlecb1dbc0c329763f2.html' component={Google_verification}/>*/}
+                    {/**/}
                     {/*<Route path='/feedback' component={Feedback}/>*/}
                     <Route path='/help' component={Help}/>
                     {/*<Route path='/calc' component={Calc}/>*/}

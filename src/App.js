@@ -24,7 +24,7 @@ class App extends Component {
             </div>);
 
         return (
-        <HashRouter>
+        <HashRouter baseHref>
             {App}
         </HashRouter>
     );
