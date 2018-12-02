@@ -4,29 +4,14 @@
 import React from 'react';
 import { Table, Grid, PanelGroup, Panel} from 'react-bootstrap';
 import ShdConstructor from './ShdConstructor'
-// import {Link} from 'react-router-dom';
-
-//import { connect } from 'react-redux';
-//import { bindActionCreators } from 'redux';
 
 class Schedule extends React.Component {
 
-    static defaultProps = {
-
-    }
-
-    static propTypes = {
-
-    }
 
     state = {
         activeKey: '4',
     }
 
-    //ES5 - componentWillMount
-    // constructor(props) {
-    //     super(props);
-    // }
 
     currentEvent(currentTime, deadTime) {
         let i = 0;
@@ -126,21 +111,5 @@ class Schedule extends React.Component {
 }
 
 
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//Schedule = connect(mapStateToProps, mapDispatchToProps)(Schedule)
 
 export default Schedule

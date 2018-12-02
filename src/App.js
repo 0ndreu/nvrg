@@ -4,12 +4,9 @@ import { HashRouter} from 'react-router-dom'
 import Main from './components/Main'
 import Footer from "./components/Page/Footer";
 
-import './assets/font-awesome/css/font-awesome.css';
+// import './assets/font-awesome/css/font-awesome.css';
 import './App.css';
-import './assets/bootstrap/css/bootstrap.min.css';
-
-
-//const auth = new Auth();
+// import './assets/bootstrap/css/bootstrap.min.css';
 
 
 class App extends Component {

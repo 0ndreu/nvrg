@@ -10,33 +10,7 @@ import {Grid, Glyphicon} from 'react-bootstrap';
 
 class MethMaterials extends React.Component {
 
-    static defaultProps = {
-
-    }
-
-    static propTypes = {
-
-    }
-
-    state = {
-
-    }
-
-    //ES5 - componentWillMount
-    // constructor(props) {
-    //     super(props);
-    // }
-
-    componentDidMount(){
-
-    }
-
-    componentWillReceiveProps(){
-
-    }
-
     render = () => {
-
         return (
             <div className="abpagewr">
                 <Grid>
@@ -75,22 +49,5 @@ class MethMaterials extends React.Component {
 
 }
 
-
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//MethMaterials = connect(mapStateToProps, mapDispatchToProps)(MethMaterials)
 
 export default MethMaterials

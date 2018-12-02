@@ -6,35 +6,8 @@ import React from 'react';
 import {Grid, Row, Col, Image} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
-//import { connect } from 'react-redux';
-//import { bindActionCreators } from 'redux';
-
 class Deyatelnost extends React.Component {
 
-    static defaultProps = {
-
-    }
-
-    static propTypes = {
-
-    }
-
-    state = {
-
-    }
-
-    //ES5 - componentWillMount
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount(){
-
-    }
-
-    componentWillReceiveProps(){
-
-    }
 
     render = () => {
 
@@ -127,23 +100,5 @@ class Deyatelnost extends React.Component {
     }
 
 }
-
-
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//Deyatelnost = connect(mapStateToProps, mapDispatchToProps)(Deyatelnost)
 
 export default Deyatelnost

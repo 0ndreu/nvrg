@@ -3,37 +3,9 @@
  */
 import React from 'react';
 import {Table} from 'react-bootstrap';
-// import {Link} from 'react-router-dom';
-
-//import { connect } from 'react-redux';
-//import { bindActionCreators } from 'redux';
 
 class ShdConstructor extends React.Component {
 
-    static defaultProps = {
-
-    }
-
-    static propTypes = {
-
-    }
-
-    state = {
-
-    }
-
-    //ES5 - componentWillMount
-    // constructor(props) {
-    //     super(props);
-    // }
-
-    componentDidMount(){
-
-    }
-
-    componentWillReceiveProps(){
-
-    }
 
     render = () => {
         const {nm, dates, prof, uchgr, d1, d2, d3, d4, d5, d6, d7} = {...this.props};
@@ -86,22 +58,5 @@ class ShdConstructor extends React.Component {
 
 }
 
-
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//ShdConstructor = connect(mapStateToProps, mapDispatchToProps)(ShdConstructor)
 
 export default ShdConstructor

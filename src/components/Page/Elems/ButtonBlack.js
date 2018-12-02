@@ -5,29 +5,8 @@ import React from 'react';
 
 class Button extends React.Component {
 
-    static defaultProps = {
-
-    }
-
-    static propTypes = {
-
-    }
-
     state = {
         caption: "ПОДРОБНЕЕ",
-    }
-
-    //ES5 - componentWillMount
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount(){
-
-    }
-
-    componentWillReceiveProps(){
-
     }
 
     render = () => {
@@ -42,23 +21,5 @@ class Button extends React.Component {
     }
 
 }
-
-
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//Button = connect(mapStateToProps, mapDispatchToProps)(Button)
 
 export default Button

@@ -2,9 +2,6 @@ import React from 'react';
 import {Panel, PanelGroup,Grid} from 'react-bootstrap';
 import {Link} from 'react-router-dom';
 
-//import { connect } from 'react-redux';
-//import { bindActionCreators } from 'redux';
-
 class Help extends React.Component {
 
     static defaultProps = {
@@ -19,17 +16,8 @@ class Help extends React.Component {
 
     }
 
-    //ES5 - componentWillMount
     constructor(props) {
         super(props);
-    }
-
-    componentDidMount(){
-
-    }
-
-    componentWillReceiveProps(){
-
     }
 
     render = () => {
@@ -138,22 +126,5 @@ class Help extends React.Component {
 
 }
 
-
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//Help = connect(mapStateToProps, mapDispatchToProps)(Help)
 
 export default Help

@@ -3,37 +3,9 @@
  */
 import React from 'react';
 import {Grid, Thumbnail, Row, Col, Image, Clearfix} from 'react-bootstrap';
-// import {Link} from 'react-router-dom';
 
-//import { connect } from 'react-redux';
-//import { bindActionCreators } from 'redux';
 
 class Management extends React.Component {
-
-    static defaultProps = {
-
-    }
-
-    static propTypes = {
-
-    }
-
-    state = {
-
-    }
-
-    //ES5 - componentWillMount
-    constructor(props) {
-        super(props);
-    }
-
-    componentDidMount(){
-
-    }
-
-    componentWillReceiveProps(){
-
-    }
 
     render = () => {
 
@@ -141,23 +113,5 @@ class Management extends React.Component {
     }
 
 }
-
-
-//const mapStateToProps = (state) => {
-//    return {
-//        currentUserId: state.users.currentUserId,
-//        loading: state.users.loading
-//    }
-//}
-
-//const mapDispatchToProps = (dispatch) => {
-//    return {
-//        onLogout: (data) => {
-//            dispatch(actions.logOut())
-//        }
-//    }
-//}
-
-//Management = connect(mapStateToProps, mapDispatchToProps)(Management)
 
 export default Management
