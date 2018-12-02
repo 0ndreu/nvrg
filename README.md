@@ -1,1 +1,2 @@
-Плохо, уныло, bootstrap, react. [Наука в регионы](http://naukavregiony.com)
+[Наука в регионы](http://naukavregiony.com)
+[Mirror](https://naukavregiony.herokuapp.com/#/)
