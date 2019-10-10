@@ -34,7 +34,7 @@ class HeaderBar extends React.Component {
                             </LinkContainer>
 
 
-                            <LinkContainer to='/help'>
+                            <LinkContainer to='/classes'>
                                 <NavItem> Физтех-кружки</NavItem>
                             </LinkContainer>
 

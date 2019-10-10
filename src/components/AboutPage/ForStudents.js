@@ -3,14 +3,40 @@
  */
 import React from 'react';
 import { Grid, Row, Col, Image } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link as Linq } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 class ForStudents extends React.Component {
-
     render = () => {
-
         return (
             <div>
+{/* 
+                <nav class="sidebar-nav">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="nav-icon cui-speedometer"></i>История проекта</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="nav-icon cui-speedometer"></i>Как проходил проект для участников</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="nav-icon cui-speedometer"></i>Обратная связь</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="nav-icon cui-speedometer"></i>Проект сейчас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="nav-icon cui-speedometer"></i>Организатор</a>
+                        </li>
+                    </ul>
+                </nav> */}
+
                 <Grid >
                     <Row>
                         <Col md={12}>
