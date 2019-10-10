@@ -6,7 +6,6 @@ import React from 'react';
 import {Grid, Glyphicon, ListGroup, ListGroupItem, Jumbotron, Button} from 'react-bootstrap';
 // import Proj from './Proj';
 
-import History from './History'
 import ForStudents from './ForStudents'
 
 import Deyatelnost from './Deyatelnost';
