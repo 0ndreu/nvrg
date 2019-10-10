@@ -1,9 +1,14 @@
 /**
  * Created by lesha on 19.12.2017.
+ * Updated by Andrey on 10/10/2019
  */
 import React from 'react';
 import {Grid, Glyphicon, ListGroup, ListGroupItem, Jumbotron, Button} from 'react-bootstrap';
-import Proj from './Proj';
+// import Proj from './Proj';
+
+import History from './History'
+import ForStudents from './ForStudents'
+
 import Deyatelnost from './Deyatelnost';
 import YouTube from 'react-youtube';
 
@@ -18,21 +23,7 @@ class AboutPage extends React.Component {
 
         return (
             <div className="abpagewr">
-                <Proj/>
-
-                <Deyatelnost/>
-
-                <div style={{marginTop: '22px', marginBottom: '15px'}}>
-                    <Grid>
-                        <div className="embed-responsive embed-responsive-16by9">
-                            <YouTube
-                                videoId="ttZP-A7q2S0"
-                                onReady={this._onReady}
-                            />
-                        </div>
-                    </Grid>
-                    <br/>
-                </div>
+                <ForStudents/>
             </div>
         )
     }

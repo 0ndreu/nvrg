@@ -25,9 +25,6 @@ class ParallaxJumbotron extends React.Component {
                                 <div className="text-wrapper">
                                     <h3>Наука в регионы</h3>
                                     <h5>Образовательный проект по созданию национальной системы подготовки и развития талантливых школьников</h5>
-                                    <Link to="/application">
-                                        <Button Caption="Подать заявку"></Button>
-                                    </Link>
                                 </div>
                             </Col>
                         </Clearfix>

@@ -3,8 +3,8 @@
  */
 
 import React from 'react';
-import {Grid, Row, Col, Image} from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import { Grid, Row, Col, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class Deyatelnost extends React.Component {
 
@@ -20,12 +20,12 @@ class Deyatelnost extends React.Component {
                     <Grid>
                         <Row>
                             <Col md={12}>
-                                    <h3 className={''}>До начала проведения очной смены:</h3>
+                                <h3 className={''}>До начала проведения очной смены:</h3>
                             </Col>
                         </Row>
 
                         <Row>
-                            <Col  md={12}>
+                            <Col md={12}>
                                 <div className="default_wrapper">
                                     <ul>
                                         <li>Преподаватели МФТИ при участии сотрудников базовых кафедр составляют методические материалы, которые станут основой для углубленных курсов по профильным предметам смены.</li>
@@ -41,14 +41,14 @@ class Deyatelnost extends React.Component {
 
 
 
-                <div style={{'marginTop': '-10px'}} className="bk_start2">
+                <div style={{ 'marginTop': '-10px' }} className="bk_start2">
                     <div className="dtl bk_2">
                         <Grid>
                             <Row>
                                 <Col md={12}> <h3 className={''}>В процессе проведения очной смены:</h3> </Col>
                             </Row>
                             <Row>
-                                <Col  md={12}>
+                                <Col md={12}>
                                     <div className="default_wrapper">
                                         <ul>
                                             <li>Школьники продолжают изучение предметов школьной программы, чтобы не было прервано освоение базового курса.</li>
@@ -69,17 +69,17 @@ class Deyatelnost extends React.Component {
                                 </Col>
                             </Row>
                         </Grid>
+                    </div>
                 </div>
-            </div>
 
-                <div style={{'marginTop': '-10px'}} className="bk_start3">
+                <div style={{ 'marginTop': '-10px' }} className="bk_start3">
                     <div className="dtl bk_3">
                         <Grid>
                             <Row>
                                 <Col md={12}> <h3 className={''}>По завершении очной смены:</h3> </Col>
                             </Row>
                             <Row>
-                                <Col  md={12}>
+                                <Col md={12}>
                                     <div className="default_wrapper">
                                         <ul>
                                             <li>Учителями-участниками проекта организуются кружки по профильным предметам очной смены. В рамках кружков школьники из региона по составленной во время смены программе продолжают обучаться по профилю или начинают углубленное изучение данного раздела научного знания, если не участвовали в очных сменах «Науки в регионы». Также учащимся в кружках «Наука в регионы» открывается доступ к онлайн-платформе, где они могут смотреть видеолекции.</li>
@@ -93,8 +93,8 @@ class Deyatelnost extends React.Component {
                                 </Col>
                             </Row>
                         </Grid>
+                    </div>
                 </div>
-            </div>
             </div>
         )
     }
