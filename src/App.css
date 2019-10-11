@@ -174,7 +174,8 @@ p {
   line-height: 32px;
   font-size: 17px;
   font-family: fontmain;
-  font-weight: 200; }
+  font-weight: 200;
+  text-indent: 3%; }
 
 a {
   outline: 0px;

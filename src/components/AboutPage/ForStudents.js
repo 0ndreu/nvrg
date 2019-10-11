@@ -58,7 +58,7 @@ class ForStudents extends React.Component {
                     <div className="dtl bk_2">
                         <Grid>
                             <Row>
-                                <Col md={12}> <h3 className={''}>Как проходил проект для участников?</h3> </Col>
+                                <Col md={12}> <h2 className={''}>Как проходил проект для участников?</h2> </Col>
                             </Row>
                             <Row>
                                 <Col md={12}>
