@@ -610,9 +610,14 @@ ol {
   .default_wrapper ul {
     padding-top: 1px;
     padding-bottom: 1px; }
-    .default_wrapper ul li {
-      font-size: 18px;
-      font-weight: 500; }
+  
+  .default_wrapper ol {
+    padding-top: 1px;
+    padding-bottom: 1px; }
+
+  .default_wrapper li {
+    font-size: 18px;
+    font-weight: 500; }
 
 .big_wrapper {
   line-height: 50px;

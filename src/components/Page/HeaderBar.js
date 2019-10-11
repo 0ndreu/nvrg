@@ -29,23 +29,25 @@ class HeaderBar extends React.Component {
                                 <NavItem> Главная</NavItem>
                             </LinkContainer>
 
-                            <LinkContainer to='/botalka'>
-                                <NavItem> Botalka</NavItem>
-                            </LinkContainer>
-
-
-                            <LinkContainer to='/classes'>
-                                <NavItem> Физтех-кружки</NavItem>
-                            </LinkContainer>
-
                             <NavDropdown eventKey={1} title="О проекте" id="basic-nav-dropdown">
                                 <LinkContainer to='/management'><MenuItem eventKey={2}>Команда проекта</MenuItem></LinkContainer>
                             </NavDropdown>
-
+                            
                             <NavDropdown eventKey={3} title="Программа" id="basic-nav-dropdown">
                                 <LinkContainer to='/professors'><MenuItem eventKey={3.1}>Преподаватели</MenuItem></LinkContainer>
                                 <LinkContainer to='/methodical_materials'><MenuItem eventKey={3.4}>Методические материалы</MenuItem></LinkContainer>
                             </NavDropdown>
+
+                            <LinkContainer to='/botalka'>
+                                <NavItem> подпроект Botalka</NavItem>
+                            </LinkContainer>
+
+
+                            <LinkContainer to='/classes'>
+                                <NavItem> подпроект Физтех-кружки</NavItem>
+                            </LinkContainer>
+
+
 
                         </Nav>
 
