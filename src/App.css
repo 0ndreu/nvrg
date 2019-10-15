@@ -2,7 +2,7 @@
 li :focus {
   outline: 0; }
 
-@media (max-width: 750px) {
+@media (max-width: 1165px) {
   .navbar-header {
     float: none; }
   .navbar-toggle {
