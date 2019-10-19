@@ -83,6 +83,25 @@ li :focus {
     position: absolute;
     top: 50%;
     margin-top: -50px; }
+  
+    .parallax-img-md .text-wrapper a{
+      text-align: left;
+      color: white;
+      margin-bottom: 20px;
+      font-weight: 300;
+      font-size: 20px;
+      text-decoration: underline;
+      
+      font-weight: 300;
+      font-size: 17px; }
+
+    .parallax-img-md .text-wrapper a:hover{
+      text-align: center;
+      margin-bottom: 10px;
+      color: black;
+      text-decoration: underline;
+      font-size: 17px; }
+
     .parallax-img-md .text-wrapper h3 {
       color: white;
       text-align: left;
@@ -118,11 +137,16 @@ li :focus {
       font-weight: 600;
       font-size: 35px;
       margin-bottom: 10px; }
-    .parallax-img-xs .text-wrapper h5 {
+    .parallax-img-xs .text-wrapper h5{
       text-align: center;
       margin-bottom: 10px;
       color: white;
       font-size: 17px; }
+    /* .parallax-img-xs .text-wrapper a{
+      text-align: center;
+      margin-bottom: 10px;
+      color: white;
+      font-size: 17px; } */
 
 html {
   position: relative;
@@ -177,15 +201,15 @@ p {
   font-weight: 200;
   text-indent: 3%; }
 
-a {
+/* a {
   outline: 0px;
-  color: #5757ab; }
-  a:hover {
+  color: #5757ab; } */
+  /* a:hover {
     color: #3a3a73;
     text-decoration: none; }
   a:focus {
     color: #3a3a73;
-    text-decoration: none; }
+    text-decoration: none; } */
 
 .navbar {
   font-family: fontmain;
@@ -418,7 +442,8 @@ ol {
 
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #f5f5f5;
-  font-size: 16px; }
+  font-size: 15px; 
+  color: #333333;}
   .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
     color: #333; }
     .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover {

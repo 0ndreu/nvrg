@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, NavDropdown, MenuItem, Nav, NavItem, Grid, Row, Col, DropdownButton } from 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
+import { Link as suck } from 'react-router'
 import { LinkContainer } from 'react-router-bootstrap';
 
 
@@ -10,7 +11,6 @@ class HeaderBar extends React.Component {
     render = () => {
         return (
             <div>
-
                 <Navbar collapseOnSelect fixedTop fluid className="nv-wrapper">
                     <Navbar.Header>
                         <LinkContainer to='/'>
@@ -25,6 +25,7 @@ class HeaderBar extends React.Component {
 
                         <Nav pullRight>
 
+
                             <LinkContainer to='/'>
                                 <NavItem> Главная</NavItem>
                             </LinkContainer>
@@ -36,6 +37,7 @@ class HeaderBar extends React.Component {
                             <NavDropdown eventKey={3} title="Программа" id="basic-nav-dropdown">
                                 <LinkContainer to='/professors'><MenuItem eventKey={3.1}>Преподаватели</MenuItem></LinkContainer>
                                 <LinkContainer to='/methodical_materials'><MenuItem eventKey={3.4}>Методические материалы</MenuItem></LinkContainer>
+                                <li role="presentation" class=""><a href="https://www.youtube.com/channel/UCWyqrBRPgT33TUtbMQsyHqw" role="menuitem" tabindex="-1" target="_blank">Видеолекции</a></li>
                             </NavDropdown>
 
                             <LinkContainer to='/botalka'>
@@ -46,9 +48,7 @@ class HeaderBar extends React.Component {
                             <LinkContainer to='/classes'>
                                 <NavItem> Физтех-кружки</NavItem>
                             </LinkContainer>
-
-
-
+                            
                         </Nav>
 
                     </Navbar.Collapse>

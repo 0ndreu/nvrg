@@ -24,7 +24,7 @@ class Footer extends React.Component {
                             {/*<h3>*/}
                                 <a href="https://vk.com/nauka_v_regiony"> <i className="fa fa-vk fa-2x" aria-hidden="true"></i> </a>
                                 <a href="mailto:yuliya@naukavregiony.com"> <i className="fa fa-envelope fa-2x" aria-hidden="true"></i> </a>
-                                <a href="https://www.youtube.com/watch?v=ttZP-A7q2S0&feature=youtu.be"> <i className="fa fa-youtube-play fa-2x" aria-hidden="false"></i> </a>
+                                <a href="https://www.youtube.com/channel/UCWyqrBRPgT33TUtbMQsyHqw"> <i className="fa fa-youtube-play fa-2x" aria-hidden="false"></i> </a>
                             </ol>
                         </Col>
                         <br/>

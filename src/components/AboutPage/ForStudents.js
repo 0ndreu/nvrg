@@ -100,6 +100,11 @@ class ForStudents extends React.Component {
                     </div>
                 </div>
 
+                <div style={{ 'marginTop': '-10px' }} className="bk_start2">
+                    <div className="dtl bk_2">
+                    </div>
+                </div>
+
             </div>
         )
     }
